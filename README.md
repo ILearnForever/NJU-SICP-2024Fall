@@ -10,18 +10,15 @@
 
 ## Course Introduction
 
-* Slide&#x20;
-
-{% file src=".gitbook/assets/01-Intro.pptx" %}
-
-* Code
+* [Slide](.gitbook/assets/01-Intro.pptx)
+* [Code](.gitbook/assets/code01.zip)
 * Supplementary
   * Lab Introduction
-    * Slide
+    * [Slide](.gitbook/assets/lab00.pptx)
 * Lab00
   * Getting Started
     * [Handout](handouts/lab00-getting-started/)
-    * Code
+    * [Code](.gitbook/assets/lab00-Code.zip)
 
 ## Names & Functions
 
