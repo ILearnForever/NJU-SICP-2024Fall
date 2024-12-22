@@ -15,8 +15,8 @@
     * [Slide](.gitbook/assets/lab00.pptx)
 * Lab00
   * Getting Started
-    * [Handout](handouts/lab00-getting-started/)
-    * Code
+    * [Handout](lab-handouts/lab00-getting-started/)
+    * [Code](.gitbook/assets/lab00-Code.zip)
 
 ## Lecture-2-Names & Functions
 
@@ -33,12 +33,12 @@
     * Video (有密码，看不了)
 * Lab01
   * Function and Control
-    * Handout
+    * [Handout](lab-handouts/lab01-functions-and-control.md)
     * [Code](.gitbook/assets/lab01-Code.zip)
 * Homework01
   * Functions and Control
-    * Handout
-    * Code
+    * [Handout](homework-handout/hw01-functions-and-control.md)
+    * [Code](.gitbook/assets/hw01-Code.zip)
 
 ## Lecture-4-Environment Diagrams
 
