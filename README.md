@@ -1,8 +1,8 @@
----
-description: 课程主页：https://sicp.pascal-lab.net/2024/
----
-
 # Structure and Interpretation of Computer Programs
+
+## 课程主页
+
+[https://sicp.pascal-lab.net/2024/](https://sicp.pascal-lab.net/2024/)
 
 ## Textbooks and References:
 
