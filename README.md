@@ -33,10 +33,10 @@
   * [Slide](.gitbook/assets/terminal.pptx)
   * Video (有密码，看不了)
 * Lab01-Function and Control
-  * [Handout](lab-handouts/lab01-functions-and-control.md)
+  * [Handout](lab-handouts/lab01-functions-and-control/)
   * [Code](.gitbook/assets/lab01-Code.zip)
 * Homework01-Function and Control
-  * [Handout](homework-handout/hw01-functions-and-control.md)
+  * [Handout](homework-handout/hw01-functions-and-control/)
   * [Code](.gitbook/assets/hw01-Code.zip)
 
 ## Lecture-4-Environment Diagrams
