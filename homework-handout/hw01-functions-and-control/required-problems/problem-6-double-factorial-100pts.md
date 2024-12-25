@@ -1,6 +1,6 @@
 # Problem 6: Double Factorial (100pts)
 
-Let's write a function `double_factorial`, which takes a positive integer $$n$$𝑛 and returns its double factorial.
+Let's write a function `double_factorial`, which takes a positive integer $$n$$ and returns its double factorial.
 
 Double factorial of a positive integer $$n$$, denoted by $$n!!$$, is defined as
 
