@@ -52,9 +52,11 @@ This is because boolean operators, like arithmetic operators, have precedence:
 * `and` is much like multiplication
 * `or` has the lowest priority, similar to subtraction
 
-**Truthy and Falsey Values**: It turns out `and` and `or` work on more than just booleans (`True`, `False`). Python values such as `0`, `None`, `''` (the empty string), and `[]` (the empty list) are considered false values. _All_ other values are considered true values.
+**Truthy and Falsey Values**: It turns out `and` and `or` work on more than just booleans (`True`, `False`). Python values such as `0`, `None`, `''` (the empty string), and `[]` (the empty list) are considered false values. _**All other values**_ are considered true values.
 
-> How to prove it?
+{% hint style="info" %}
+How to prove it?
+{% endhint %}
 
 ## **Short Circuiting**
 
@@ -70,33 +72,34 @@ Try it out in Python! You should see a `ZeroDivisionError`. But what about this 
 True or 1 / 0
 ```
 
-It evaluates to `True` because `and` and `or` operators in Python _short-circuit_. That is, they don't necessarily evaluate every operand.
+It evaluates to `True` because `and` and `or` operators in Python _**short-circuit**_. That is, they don't necessarily evaluate every operand.
 
-| Operator | Checks if:                 | Evaluates from left to right up to: | Example                                |
-| -------- | -------------------------- | ----------------------------------- | -------------------------------------- |
-| AND      | All values are true        | The first false value               | `False and 1 / 0` evaluates to `False` |
-| OR       | At least one value is true | The first true value                | `True or 1 / 0` evaluates to `True`    |
+<table><thead><tr><th align="center">Operator</th><th align="center">Checks if:</th><th width="297" align="center">Evaluates from left to right up to:</th><th align="center">Example</th></tr></thead><tbody><tr><td align="center">AND</td><td align="center">All values are true</td><td align="center">The first false value</td><td align="center"><code>False and 1 / 0</code> evaluates to <code>False</code></td></tr><tr><td align="center">OR</td><td align="center">At least one value is true</td><td align="center">The first true value</td><td align="center"><code>True or 1 / 0</code> evaluates to <code>True</code></td></tr></tbody></table>
 
 Short-circuiting happens when the evaluation of the expression reaches an operand that allows Python to make a conclusion about the expression. For example, `and` will short-circuit as soon as it reaches the first false value because it then knows the expression cannot be true since not all the operands are true.
 
 If `and` and `or` do not _short-circuit_, they just return the last value; another way to remember this is that `and` and `or` always return the last thing they evaluate, whether they short circuit or not. Keep in mind that `and` and `or` don't always return booleans when using values other than `True` and `False`.
 
-> Can you explain what `[] and True` evaluates to and why?
+{% hint style="info" %}
+Can you explain what `[] and True` evaluates to and why?
+{% endhint %}
 
 ## **If Statements**
 
 You can review the syntax of `if` statements in [Section 1.5.4](http://www.composingprograms.com/pages/15-control.html#conditional-statements) of Composing Programs.
 
-> _Tip_: We sometimes see code that looks like this:
->
-> ```python
-> if x > 3:
->     return True
-> else:
->     return False
-> ```
->
-> This can be written more concisely as `return x > 3`. If your code looks like the code above, see if you can rewrite it more clearly!
+{% hint style="info" %}
+Tip: We sometimes see code that looks like this:
+
+```python
+if x > 3:
+    return True
+else:
+    return False
+```
+
+This can be written more concisely as `return x > 3`. If your code looks like the code above, see if you can rewrite it more clearly!
+{% endhint %}
 
 ## **While Loops**
 
