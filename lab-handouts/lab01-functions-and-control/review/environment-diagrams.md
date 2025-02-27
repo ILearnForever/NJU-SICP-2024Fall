@@ -38,7 +38,9 @@ def f(z):
 
 ## Call Expressions <a href="#id-243-call-expressions" id="id-243-call-expressions"></a>
 
-> Note: you do not have to go through this process for a built-in Python function like `max` or `print`.
+{% hint style="info" %}
+you do not have to go through this process for a built-in Python function like `max` or `print`.
+{% endhint %}
 
 1. Evaluate the operator, whose value should be a function.
 2. Evaluate the operands left to right.

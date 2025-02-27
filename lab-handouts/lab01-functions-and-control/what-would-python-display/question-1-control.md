@@ -63,7 +63,13 @@ ______
 ______
 ```
 
-> Hint: Make sure your `while` loop conditions eventually evaluate to a false value, or they'll never stop! Type `Ctrl-C` will stop infinite loops in the interpreter.
+<details>
+
+<summary>Hint</summary>
+
+Make sure your `while` loop conditions eventually evaluate to a false value, or they'll never stop! Type `Ctrl-C` will stop infinite loops in the interpreter.
+
+</details>
 
 ```python
 >>> positive = 28

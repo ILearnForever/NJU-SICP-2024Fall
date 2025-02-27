@@ -34,7 +34,7 @@ What do you think the following expression evaluates to? Try it out in your Pyth
 
 It is difficult to read complex expressions, like the one above, and understand how a program will behave.
 
-What about hits one?
+What about this one?
 
 ```python
 >>> 1 * -0 + -1 * 0
@@ -89,7 +89,7 @@ Can you explain what `[] and True` evaluates to and why?
 You can review the syntax of `if` statements in [Section 1.5.4](http://www.composingprograms.com/pages/15-control.html#conditional-statements) of Composing Programs.
 
 {% hint style="info" %}
-Tip: We sometimes see code that looks like this:
+We sometimes see code that looks like this:
 
 ```python
 if x > 3:
