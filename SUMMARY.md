@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Structure and Interpretation of Computer Programs](README.md)
+* [Lab](lab.md)
 
 ## Lab Handouts
 
