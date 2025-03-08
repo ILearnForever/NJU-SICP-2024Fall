@@ -1,5 +1,11 @@
 # Home
 
+{% hint style="warning" %}
+The [position](https://app.gitbook.com/s/V23kNlfUhuxj16gGF9Lb/computer/programming-language/python/nju-structure-and-interpretation-of-computer-programs#id-2024-fall) in My Learning Schedule
+{% endhint %}
+
+***
+
 ## 课程主页
 
 [https://sicp.pascal-lab.net/2024/](https://sicp.pascal-lab.net/2024/)
